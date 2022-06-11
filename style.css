@@ -6,14 +6,16 @@ body{
     align-items: center;
     justify-content: center;
 }
+
 .periodical-schedule{
     width: 14%;
-    height: 50%;
+    height: 45%;
     position: absolute;
     top: 180px;
     left: 240px;
     background: rgb(25, 30, 63);
     border-radius: 20px;
+    
 }
 .image-wrapper{
     height: 55%;
@@ -57,4 +59,134 @@ body{
     margin-left: 24px; 
     align-self: center;
     line-height: 50px;  
+}
+
+
+
+.work{
+    width: 14%;
+    height: 21%;
+    position: absolute;
+    top: 180px;
+    left: 470px;
+    background: #FACE75;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.work-wrapper{
+    height: 55%;
+    background: rgb(25, 30, 63);
+    border-radius: 20px;
+    padding-top: 50px;
+    color: #fff;
+    line-height: 12%;
+    margin-top: 41px;
+    overflow: hidden;
+    left: 12px;
+    padding-left: 20px;
+}
+.work h4{
+    position: absolute;
+    top: 45px;
+    font-size: 12px;
+    font-family:  verdana;
+    font-weight: bold;
+}
+.work h2{
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.work span{
+    font-size: small;
+    font-family: Tahoma;
+}
+
+
+
+
+.play{
+    width: 14%;
+    height: 21%;
+    position: absolute;
+    top: 180px;
+    left: 47%;
+    background: #57A7E5;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.play-wrapper{
+    height: 55%;
+    background: rgb(25, 30, 63);
+    border-radius: 20px;
+    padding-top: 50px;
+    color: #fff;
+    line-height: 12%;
+    margin-top: 41px;
+    overflow: hidden;
+    left: 12px;
+    padding-left: 20px;
+}
+.play h4{
+    position: absolute;
+    top: 45px;
+    font-size: 12px;
+    font-family:  verdana;
+    font-weight: bold;
+}
+.play h2{
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.play span{
+    font-size: small;
+    font-family: Tahoma;
+}
+
+
+
+.study{
+    width: 14%;
+    height: 21%;
+    position: absolute;
+    top: 180px;
+    left: 63%;
+    background: #57A7E5;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.study-wrapper{
+    height: 55%;
+    background: rgb(25, 30, 63);
+    border-radius: 20px;
+    padding-top: 50px;
+    color: #fff;
+    line-height: 12%;
+    margin-top: 41px;
+    overflow: hidden;
+    left: 12px;
+    padding-left: 20px;
+}
+.study h4{
+    position: absolute;
+    top: 45px;
+    font-size: 12px;
+    font-family:  verdana;
+    font-weight: bold;
+}
+.study h2{
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.study span{
+    font-size: small;
+    font-family: Tahoma;
 }
