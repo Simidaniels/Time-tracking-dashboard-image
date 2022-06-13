@@ -2,20 +2,19 @@ body{
     position: relative;
     background: hsl(226, 43%, 10%);
     height: 900px;
+    width: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .periodical-schedule{
     width: 16%;
     height: 50%;
     position: absolute;
     top: 200px;
-    left: 170px;
+    left: 190px;
     background: rgb(25, 30, 63);
     border-radius: 20px;
-    
 }
 .image-wrapper{
     height: 55%;
@@ -25,13 +24,14 @@ body{
     color: #fff;
     line-height: 12%;
 }
-.image-wrapper p{
+.report{
     font-size: 12px;
     font-family: Verdana;
     margin-left: 16%;
     margin-top: 25%;
+    line-height: 15px;
 }
-.image-wrapper h2{
+.name{
     width: 7rem;
     height: 5rem;
     margin-left: 16%;
@@ -64,9 +64,6 @@ body{
     align-self: center;
     line-height: 50px;  
 }
-
-
-
 section{
     height: 52%;
     width: 75%;
@@ -76,13 +73,9 @@ section{
     gap: 2rem;
     padding-left: 30rem;
     padding-bottom: 2rem;
-    margin: 5%;
-    
-    
-    
+    margin: 5%; 
 }
 article{
-    
     width: 15rem;
     height: 12rem;
     border-radius: 20px;
@@ -97,7 +90,6 @@ article{
     border-radius: 20px;
     padding-left: 18px;
     padding-top: 14px;
-    box-sizing: border-box;
 }
 .card-subject{
     font-size: 13px;
@@ -106,20 +98,14 @@ article{
     height: 2rem;
     display: inline-block;
 }
-
-
-
-
 .card-time{
     font-size: 3.5em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 4rem;
-    
-    
 }
 .card-former{
-    font-size: 15px;
-    font-family: Cambria;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 7px;
     display: inline-block;
 }
