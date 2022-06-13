@@ -8,11 +8,11 @@ body{
 }
 
 .periodical-schedule{
-    width: 14%;
+    width: 16%;
     height: 50%;
     position: absolute;
-    top: 180px;
-    left: 240px;
+    top: 200px;
+    left: 170px;
     background: rgb(25, 30, 63);
     border-radius: 20px;
     
@@ -32,11 +32,15 @@ body{
     margin-top: 25%;
 }
 .image-wrapper h2{
+    width: 7rem;
+    height: 5rem;
     margin-left: 16%;
     margin-top: 5px;
     line-height: 25px;
-    font-family: "Rubik",sans-serif;
+    font-family: sans-serif;
     font-weight: 200;
+    font-size: 30px;
+    line-height: 30px;
     letter-spacing: 1px;
 }
 .periodical-schedule  ul li{
@@ -65,34 +69,57 @@ body{
 
 section{
     height: 52%;
-    width: 78%;
+    width: 75%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 2;
     gap: 2rem;
-    padding-left: 35rem;
+    padding-left: 30rem;
     padding-bottom: 2rem;
+    margin: 5%;
+    
+    
     
 }
 article{
-    background: green;
+    
     width: 15rem;
     height: 12rem;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 .card{
-    
-    
     color: #fff;
-    
-    
-    
-    
 }
 .card-wrapper{
-    background: red;
+    background: rgb(25, 30, 63);
     height: 10rem;
     margin-top: 32px;
-    border-radius: 15px;
+    border-radius: 20px;
+    padding-left: 18px;
+    padding-top: 14px;
+    box-sizing: border-box;
+}
+.card-subject{
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: bold;
+    height: 2rem;
+    display: inline-block;
 }
 
+
+
+
+.card-time{
+    font-size: 3.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 4rem;
+    
+    
+}
+.card-former{
+    font-size: 15px;
+    font-family: Cambria;
+    padding-top: 7px;
+    display: inline-block;
+}
